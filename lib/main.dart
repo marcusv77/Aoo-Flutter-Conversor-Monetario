@@ -13,6 +13,7 @@ void main() async {
 
   runApp(MaterialApp(
     home: Home(),
+    debugShowCheckedModeBanner: false,
     theme: ThemeData(
         hintColor: Colors.green,
         primaryColor: Colors.white,
@@ -60,6 +61,12 @@ class _HomeState extends State<Home> {
     euroController.text = (real/euro).toStringAsFixed(2);
   }
 
+  void _resetField() {
+    realController.text = "";
+    dolarController.text = "";
+    euroController.text = "";
+  }
+
   void _dolarChange(String text){
     if(text.isEmpty) {
       _clearAll();
@@ -91,6 +98,12 @@ class _HomeState extends State<Home> {
         ),
         backgroundColor: Colors.green,
         centerTitle: true,
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.refresh, color: Colors.white,),
+            onPressed: _resetField,
+          )
+        ],
       ),
       body: FutureBuilder<Map>(
         future: getData(),
