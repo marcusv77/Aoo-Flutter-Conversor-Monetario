@@ -18,4 +18,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ## License
 
-- <a href="https://github.com/marcusv77/University/blob/master/LICENSE">MIT</a>
+- <a href="https://github.com/marcusv77/App-Flutter-Conversor-Monetario/blob/master/LICENSE">MIT</a>
