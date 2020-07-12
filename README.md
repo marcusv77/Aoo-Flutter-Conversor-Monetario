@@ -4,10 +4,8 @@ Application developed in flutter with the aid of the course "Creating Android an
 The project in question is a small application to perform financial calculations aiming at currency conversion. The app consumes real data from the API so that the values ​​are appropriate to the current reality.
 
 <p align="center"> 
-<img src="https://github.com/marcusv77/App-Flutter-Conversor-Monetario/blob/master/print/converter.png">
+<img alt="Print" src="https://github.com/marcusv77/App-Flutter-Conversor-Monetario/blob/master/print/converter.png">
 </p>
-
-![print](https://github.com/marcusv77/App-Flutter-Conversor-Monetario/blob/master/print/converter.png?raw=true)
 
 ## Getting Started
 
