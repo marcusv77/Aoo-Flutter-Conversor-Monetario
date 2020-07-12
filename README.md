@@ -1,6 +1,7 @@
-# flutterapp
+# Currency converter
 
-A new Flutter application.
+Application developed in flutter with the aid of the course "Creating Android and iOS Apps with Flutter".
+The project in question is a small application to perform financial calculations aiming at currency conversion. The app consumes real data from the API so that the values ​​are appropriate to the current reality.
 
 ## Getting Started
 
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## License
+
+- <a href="https://github.com/marcusv77/App-Flutter-Conversor-Monetario/blob/master/LICENSE">MIT</a>
